@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tizeti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="img/tztlogo.jpg" height="35px" width="35px" alt="Wifi.com.ng" />
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-navigation">
+                            <span class="sr-only">Navigation toggle</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="hamburger-navigation">
+
+                        <ul class="nav navbar-nav" role="menu">
+                            <li id="nav-item">
+                                <a href="#" class="active navbar-link">Overview</a>
+                                <span class="sr-only">current</span>
+                            </li>
+                            <li id="nav-item">
+                                <a href="#">Profile</a>
+                            </li>
+                            <li class="history" id="nav-item">
+                                <a href="#">History</a>
+                            </li>
+                            <li id="nav-item">
+                                <a href="#">Service</a>
+                            </li>
+                            <div class="nav-button">
+                                <button type="button" class="btn btn-success">Fund Wallet</button>
+                                <button type="button" class="btn btn-primary">Renew Plan</button>
+                            </div>
+
+                        </ul>
+                        <span class="glyphicon glyphicon-log-out"></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="page-name">
+            <p>History</p>
+        </div>
+
+        <main class="row">
+            <form id="myForm" class="form-horizontal panel-body">
+                <fieldset>
+                    <legend>Usage History</legend>
+                    <label for="fromDate">From(Date)</label>
+                    <input type="date" id="date" required name="date">
+
+
+
+                    <label for="toDate">To(Date)</label>
+                    <input type="date" id="date" required name="date">
+                    <button type="button" class="btn btn-primary">View</button>
+
+                    <br>
+
+                    <legend>Payment History</legend>
+                    <label for="fromDate">From(Date)</label>
+                    <input type="date" id="date" required name="date">
+
+
+                    <label for="toDate">To(Date)</label>
+                    <input type="date" id="date" required name="date">
+                    <button type="button" class="btn btn-primary">View</button>
+
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+
+            &copy; 2018 Tizeti Network Limited. All Rights Reserved
+
+
+            <div class="navbar-text navbar-right">
+                <span>
+                    Follow Us:
+                </span>
+                <!-- Add font awesome icons -->
+                <a class="fa fa-facebook" id="fb-link" href="#" target="_blank"></a>
+                <a class="fa fa-twitter" id="tw-link" href="#" target="_blank"></a>
+                <a class="fa fa-instagram" id="ig-link" href="#" target="_blank"></a>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+
+</body>
+
+</html>
