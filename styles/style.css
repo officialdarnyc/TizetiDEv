@@ -33,9 +33,9 @@ margin: 10px 10px;
     padding-right: 20px;
 }
 .fa {
-    padding: 8px;
+    padding: 6px;
     font-size: 4px;
-    width: 8px;
+    width: 6px;
     text-align: center;
     text-decoration: none;
     margin: 0px 5px;
@@ -72,19 +72,20 @@ margin: 10px 10px;
 footer {
     background-color: #16bfb9;
     padding: 30px;
-    margin-top: 130px;
+    margin-top: 150px;
 
 }
-footer.copyR {
+footer {
     color: white;
 }
 input[type=date] {
-    width: 180px;
+    width: 150px;
     padding: 10px 10px;
     margin: 5px 5px;
     box-sizing: border-box;
     border: 1px solid #16bfb9;
     border-radius: 1px;
+    
     
 }
 button {
@@ -110,7 +111,11 @@ button {
 .page-name {
     background-color: rgb(230, 230, 230);
     padding: 20px;
+    
 }
 .row {
     margin-left: 20px;
+}
+.form-horizontal label {
+    margin: 5px 10px 5px 0;
 }
